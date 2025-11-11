@@ -49,6 +49,7 @@ CREATE TABLE rally (
     player_a_score SMALLINT,
     player_b_score SMALLINT,
     winner_id SMALLINT,
+    let VARCHAR(5),
     win_method VARCHAR(100),
     final_position_x FLOAT,
     final_position_y FLOAT,
